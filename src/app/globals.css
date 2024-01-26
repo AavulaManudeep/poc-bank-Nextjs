@@ -15,8 +15,10 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
-
-body {
+body{
+  background-color: rgb(240, 252, 240);
+}
+/* body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -24,4 +26,29 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+} */
+.modal-dialog {
+  color: black;
 }
+.btn-close {
+  align-content: center;
+  align-items: center;
+  background-color:rgba(4, 4, 247, 0.678);
+}
+.app-bar {
+  background-color: rgb(118, 177, 118);
+}
+.logo-button {
+ margin: 10px,1px,1px;
+ color: white;
+}
+.submit-button,.reset-button {
+  background-color: rgb(118, 177, 118);
+  color: white;
+ }
+ .submit-button:hover {
+   background-color: rgb(118, 177, 118);
+ }
+ input {
+   border-color: rgb(118, 177, 118) ;
+ }
