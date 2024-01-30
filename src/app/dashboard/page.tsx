@@ -1,6 +1,5 @@
 
-import Alert from '../../../node_modules/bootstrap/js/dist/alert';
- export default function Dashboard({props}) {
+ export default function Dashboard() {
      return(
          <h1>Dashboard Page</h1>
      )

@@ -9,7 +9,7 @@ type FormValues = {
     exp: Date,
     transactionId:string
 }
-export default function refundPage() {
+export default function RefundPage() {
     const {
         register,
         handleSubmit,

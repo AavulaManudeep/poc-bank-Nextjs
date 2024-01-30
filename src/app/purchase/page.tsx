@@ -8,7 +8,7 @@ type FormValues = {
     cvv: number,
     exp: Date,
 }
-export default function purchasePage() {
+export default function PurchasePage() {
     const {
         register,
         handleSubmit,

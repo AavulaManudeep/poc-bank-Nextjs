@@ -10,7 +10,7 @@ type FormValues = {
     accountNumber:number,
     applicationId:string
 }
-export default function lookupPage() {
+export default function LookupPage() {
     const {
         register,
         handleSubmit,

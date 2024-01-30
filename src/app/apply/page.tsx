@@ -18,7 +18,7 @@ type FormValues = {
     state: string
     zipcode: number
 }
-export default function applyPage() {
+export default function ApplyPage() {
     const {
         register,
         handleSubmit,
