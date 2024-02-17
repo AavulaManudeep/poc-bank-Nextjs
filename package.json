@@ -13,7 +13,10 @@
     "cy:run": "cypress run",
     "test": "jest",
     "test:watch": "jest --watch",
-    "mock": "wiremock --disable-banner --port 0"
+    "mock": "wiremock --disable-banner --port 0",
+    "playwright:ui": "npx playwright test --ui",
+    "playwright": "npx playwright test",
+    "playwright:reports": "npx playwright show-report"
   },
   "dependencies": {
     "@emotion/cache": "^11.11.0",
@@ -31,6 +34,7 @@
     "wiremock": "^2.35.1"
   },
   "devDependencies": {
+    "@playwright/test": "^1.41.2",
     "@storybook/addon-essentials": "^7.6.7",
     "@storybook/addon-interactions": "^7.6.7",
     "@storybook/addon-links": "^7.6.7",

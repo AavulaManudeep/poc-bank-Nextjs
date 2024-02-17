@@ -40,5 +40,7 @@ next-env.d.ts
 #other
 /.swc/
 /.storybook/
-
-
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
