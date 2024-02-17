@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/poc-ihsweb.iml" filepath="$PROJECT_DIR$/.idea/poc-ihsweb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/poc-bank-nextjs.iml" filepath="$PROJECT_DIR$/.idea/poc-bank-nextjs.iml" />
     </modules>
   </component>
 </project>

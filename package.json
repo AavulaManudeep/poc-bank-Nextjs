@@ -1,5 +1,5 @@
 {
-  "name": "poc-ihsweb",
+  "name": "poc-bank-Nextjs",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -54,7 +54,7 @@
     "jest": "^29.7.0",
     "jest-environment-jsdom": "^29.7.0",
     "postcss": "^8",
-    "storybook": "^7.6.7",
+    "storybook": "^6.5.16",
     "tailwindcss": "^3",
     "typescript": "^5"
   }
